@@ -3,7 +3,7 @@
   --secondary-color: #434455;
   --design-color: #4d5ae5;
   --action-color: #404bbf;
-  --btn-action-color: #ffffff;
+  --white-color: #ffffff;
   --secondary-design-color: #f4f4fd;
   --frame-color: #e7e9fc;
   --primary-text: 'Roboto';
@@ -11,27 +11,27 @@
 }
 
 body {
-  font-style: normal;
+  color: var(--primary-color);
   font-size: 16px;
-  font-weight: 400;
   font-family: var(--primary-text), sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
 }
 /* Header navigation  */
 .logo {
   font-weight: 800;
   font-size: 18px;
   text-decoration: none;
-  color: inherit;
   line-height: 1.16;
-}
-.logo-design {
+  font-family: var(--secondary-text);
   color: var(--design-color);
 }
-.nav-link {
-  list-style-type: none;
+.logo-header {
+  color: var(--primary-color);
 }
+
 .link {
-  line-height: 1.5;
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 500;
@@ -56,21 +56,88 @@ body {
   color: var(--design-color);
   background-color: var(--frame-color);
   font-weight: 500;
-  line-height: 1.5;
-  border: none;
   font-family: var(--primary-text);
   font-style: normal;
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--frame-color);
 }
 .btn:hover {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--action-color);
 }
 .btn:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--action-color);
 }
 
-.btn-list {
+.list {
   list-style-type: none;
+}
+
+.hero-section {
+  background-color: var(--primary-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  background-color: var(--design-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: var(--white-color);
+  background-color: var(--action-color);
+}
+.hero-btn:focus {
+  color: var(--white-color);
+  background-color: var(--action-color);
+}
+.hero-img {
+  border: 1px solid var(--frame-color);
+}
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-color);
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.text {
+  color: var(--secondary-color);
+}
+
+.team-section {
+  background-color: var(--secondary-design-color);
+}
+.footer-backround {
+  background-color: var(--primary-color);
+}
+
+.logo-footer {
+  color: var(--secondary-design-color);
+}
+.footer-text {
+  color: var(--secondary-design-color);
 }
