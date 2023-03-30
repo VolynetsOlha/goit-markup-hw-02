@@ -18,7 +18,7 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--white-color);
 }
-/* Header navigation  */
+
 .logo {
   font-weight: 800;
   font-size: 18px;
@@ -26,6 +26,7 @@ body {
   line-height: 1.16;
   font-family: var(--secondary-text);
   color: var(--design-color);
+  text-transform: uppercase;
 }
 .logo-header {
   color: var(--primary-color);
@@ -36,7 +37,7 @@ body {
   color: var(--primary-color);
   font-weight: 500;
 }
-/* Contacts */
+
 .link.contact {
   color: var(--secondary-color);
   font-style: normal;
@@ -51,7 +52,7 @@ body {
   color: var(--action-color);
   text-decoration: underline;
 }
-/* Button list */
+
 .btn {
   color: var(--design-color);
   background-color: var(--frame-color);
