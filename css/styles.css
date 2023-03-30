@@ -25,7 +25,7 @@ body {
   font-weight: 500;
 }
 
-.link.contact {
+.contact {
   color: var(--secondary-color);
   font-style: normal;
   font-weight: 400;
@@ -57,13 +57,16 @@ body {
 
 .btn {
   color: var(--design-color);
-  background-color: var(--frame-color);
+  background-color: var(--secondary-design-color);
   font-weight: 500;
-  font-family: var(--primary-text);
   font-style: normal;
   cursor: pointer;
   border-radius: 4px;
   border: 1px solid var(--frame-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
 }
 .btn:hover {
   color: var(--white-color);
@@ -131,6 +134,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 
 .text {
