@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio (Version 3.0)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,16 +19,20 @@
   </head>
   <body>
     <header>
+      <!-- Header navigation -->
       <nav>
-        <a class="logo link" href="./index.html"
+        <a class="logo" href="./index.html"
           >Web<span class="logo-header">Studio</span></a
         >
         <ul class="list">
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
+          <li><a class="link nav-link" href="./index.html">Studio</a></li>
+          <li>
+            <a class="link nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="link nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
+      <!-- Contacts -->
       <address class="contact">
         <ul class="list">
           <li>
@@ -41,11 +49,13 @@
       </address>
     </header>
     <main>
+      <!-- Hero section -->
       <section class="hero-section">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-btn" type="button">Order Service</button>
       </section>
       <section>
+        <!-- Second section -->
         <h2 hidden class="title">List of possibilities</h2>
         <ul class="list">
           <li>
@@ -78,6 +88,7 @@
           </li>
         </ul>
       </section>
+      <!-- Third section -->
       <section>
         <h2 class="secondary-title">What are we doing</h2>
         <ul class="list">
@@ -110,6 +121,7 @@
           </li>
         </ul>
       </section>
+      <!-- Fourth section -->
       <section class="team-section">
         <h2 class="secondary-title">Our Team</h2>
         <ul class="list">
@@ -156,8 +168,9 @@
         </ul>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer-backround">
-      <a class="logo link" href="./index.html"
+      <a class="logo" href="./index.html"
         >Web<span class="logo-footer">Studio</span></a
       >
       <p class="footer-text">
